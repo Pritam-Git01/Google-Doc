@@ -1,0 +1,88 @@
+
+
+    .navBar {
+        
+        display: flex;
+        justify-content: space-between !important;
+        padding: 10px;
+        padding-left: 16px;
+        height: 39px;
+        position: fixed;
+        bottom: 100vh;
+        z-index: 1000;
+        background-color: white;
+        width: 98vw;
+    }
+    .left {
+        display: flex;
+    
+    }
+    
+    .pointer:hover {
+        cursor: pointer;
+    }
+    
+    .icon:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        padding: 2px 2px;
+    }
+    
+    li:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    input {
+        border: solid transparent 1px;
+        border-radius: 4px;
+        width: 156px;
+        padding: 2px 6px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    
+    input:hover {
+        border-color: #747775;
+        cursor: pointer;
+    }
+    
+    .list {
+        display: inline;
+    }
+    
+    li {
+        display: inline;
+        padding: 0 7px;
+        font-size: 15px;
+    }
+    
+    ul {
+        margin: 0;
+        list-style-type: none;
+        padding-left: 5px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    .share {
+        background-color: #c2e7ff;
+        padding: 7px 18px;
+        padding-top: 7px;
+        border-radius: 20px;
+        border: solid transparent;
+        position: relative;
+        top: -5px;
+    }
+    
+    .share:hover {
+        background-color: #bbd3e3;
+        box-shadow: #747775 1px 1px 1px 1px;
+    }
+    
+    .write {
+        font-size: 15px;
+        position: relative;
+        top: -5%;
+        font-weight: 500;
+        color: #001d35;
+    }

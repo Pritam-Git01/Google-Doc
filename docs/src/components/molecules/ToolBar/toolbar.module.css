@@ -1,0 +1,12 @@
+.toolbar_container{
+    display: flex;
+    margin-top: 4.4rem;
+    height: 2.4rem;
+    width: 90vw;
+    color: rgb(36, 34, 34);
+   background-color: rgb(240, 242, 248);
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+     
+    
+}

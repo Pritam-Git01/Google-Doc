@@ -1,0 +1,18 @@
+.first_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+.zoom_container {
+    height: 1.6rem;
+    width: 5rem;
+    border: none;
+    background-color: rgb(240, 242, 248);
+}
+.zoom_container:hover {
+    background-color: rgb(212, 219, 239);
+    border-radius: 0.2rem;
+}

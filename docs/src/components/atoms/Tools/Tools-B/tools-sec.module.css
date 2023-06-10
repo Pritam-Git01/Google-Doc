@@ -1,0 +1,29 @@
+.second_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-left: 0.8rem;
+}
+
+.text_container {
+    height: 1.6rem;
+    width: 6rem;
+    border: none;
+    background-color: rgb(240, 242, 248);
+
+}
+.text_container:hover{
+    background-color: rgb(212, 219, 239);
+    border-radius: 0.2rem;
+}
+.font_container {
+    height: 1.6rem;
+    width: 5rem;
+    border: none;
+    background-color: rgb(240, 242, 248);
+}
+.font_container:hover {
+    background-color: rgb(212, 219, 239);
+    border-radius: 0.2rem;
+}
