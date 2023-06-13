@@ -5,10 +5,10 @@ import AddIcon from '@mui/icons-material/Add';
 import { useState } from 'react';
 const ToolsC = () => {
 
-    const [count,setCount] = useState(14);
+    const [count,setCount] = useState(8);
 
     const handleDec = () => {
-        if(count >= 1){
+        if(count > 1){
             setCount(pre => pre-1)
             document.execCommand("fontSize", "",count)
         }
@@ -21,7 +21,7 @@ const ToolsC = () => {
   return (
     <div className={styles.third_container}>
        <RemoveIcon style={{fontSize: "1rem"}} onClick={ handleDec}/>
-        <button style={{width: "2rem"}}>{count  }</button>
+        <button style={{width: "2rem"}}>{count}</button>
         <AddIcon style={{fontSize: "1rem"}} onClick= { handleInc}/>
     </div>
   )

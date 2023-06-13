@@ -4,4 +4,10 @@
     align-items: center;
     gap: 1.2rem;
     margin-left: 0.8rem;
+    
+}
+.btn {
+    border: none;
+    font-size: 0.6rem;
+    
 }
