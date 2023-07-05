@@ -3,7 +3,7 @@ import styles from './textArea.module.css';
 
 const TextArea = () => {
   return (
-    <>
+    <div className={styles.wraper}>
     <div
     id='myDiv'
     contentEditable={true}
@@ -11,7 +11,7 @@ const TextArea = () => {
     className={styles.textArea}>
 
     </div>
-    </>
+    </div>
   )
 }
 

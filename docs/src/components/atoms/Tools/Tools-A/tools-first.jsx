@@ -68,10 +68,10 @@ const ToolsA = () => {
         style={{ fontSize: "1rem" }}
         onClick={() => handlePrintScreen("myDiv")}
       />
-      <button onClick={handleSpellCheck}>
+     
       
-        <SpellcheckIcon style={{ fontSize: "1rem" }} />
-      </button>
+        <SpellcheckIcon onClick={handleSpellCheck} style={{ fontSize: "1rem" }} />
+     
       <ImagesearchRollerOutlinedIcon style={{ fontSize: "1rem" }} />
       <div>
         <select

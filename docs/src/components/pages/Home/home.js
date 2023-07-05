@@ -6,11 +6,11 @@ import Toolbars from '../../molecules/ToolBar/toolbar';
 
 const Home = () => {
   return (
-    <>
+    <div >
     <NavBar/>
     <Toolbars/>
     <TextArea/>
-    </>
+    </div>
   )
 }
 

@@ -36,20 +36,20 @@ const ToolsD = () => {
         onClick={() => handleCommand("bold")}
       />
       <FormatItalicIcon
-        style={{ fontSize: "1.2rem" }}
+        style={{ fontSize: "1.2rem", paddingLeft:"1rem"}}
         onClick={() => handleCommand("italic")}
       />
       <FormatUnderlinedIcon
-        style={{ fontSize: "1.2rem" }}
+        style={{ fontSize: "1.2rem", paddingLeft:"1rem" }}
         onClick={() => handleCommand("underline")}
       />
-      <TextFormatIcon onClick={handleColorClick} />
+      <TextFormatIcon  style={{  paddingLeft:"1rem" }} onClick={handleColorClick} />
       <input
         type="color"
         ref={colorRef}
         onChange={handleColorChange}
         
-        style={{ display: "none" }}
+        style={{ visibility: "hidden", width: "1px", height: "1px" }}
       />
 
       <button className={styles.btn} onClick={handleBackgroundClick}>
@@ -59,7 +59,7 @@ const ToolsD = () => {
         type="color"
         ref={bgRef}
         onChange={(e) => handleBackgroundChange(e.target.value)}
-        style={{ display: "none" }}
+        style={{ visibility: "hidden", width: "1px", height:"1px" }}
      
       />
     </div>
